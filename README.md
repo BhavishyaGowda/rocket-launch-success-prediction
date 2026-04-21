@@ -116,7 +116,7 @@ Predictions include:
 - Visualization of results
 
 
-## My Contribution
+## 🔍 My Contribution
 This project was developed as a team project. My contributions include:
 - Understanding and analyzing the dataset
 - Running and testing machine learning models
