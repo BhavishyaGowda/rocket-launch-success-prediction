@@ -16,6 +16,12 @@ A machine learning-powered web application that predicts the success probability
 - **Data Export**: Download results in CSV or Excel format
 - **Secure Access**: User authentication system
 
+## Technologies Used
+- Python
+- Machine Learning (Scikit-learn)
+- Pandas, NumPy
+- Streamlit
+
 ## 🛠️ Installation
 
 1. Clone the repository:
@@ -120,6 +126,12 @@ Predictions include:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## My Contribution
+This project was developed as a team project. My contributions include:
+- Understanding and analyzing the dataset
+- Running and testing machine learning models
+- Assisting in building the dashboard and evaluating results
 
 ## 👥 Authors
 
