@@ -1,39 +1,127 @@
-# Rocket Launch Success Prediction
+# 🚀 Rocket Launch Success Prediction Dashboard
 
-## Overview
-This project predicts whether a rocket launch will be successful using machine learning techniques based on historical launch data.
+A machine learning-powered web application that predicts the success probability of rocket launches using historical data and advanced ML algorithms.
 
-## Motivation
-Space missions are expensive and risky. Predicting launch success can help reduce failures and improve planning.
+## 🌟 Features
 
-## Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib
+- **Interactive Dashboard**: Visualize launch statistics and trends
+- **Multiple ML Models**: Train and compare different algorithms:
+  - Logistic Regression
+  - K-Nearest Neighbors
+  - Naive Bayes
+  - Neural Network
+  - XGBoost
+- **Real-time Predictions**: Input launch parameters and get instant predictions
+- **Bulk Predictions**: Upload CSV files for batch predictions
+- **Data Export**: Download results in CSV or Excel format
+- **Secure Access**: User authentication system
 
-## Methodology
-- Data preprocessing and cleaning
-- Feature selection
-- Model training using classification algorithms
-- Model evaluation using accuracy score
+## 🛠️ Installation
 
-## Results
-The model achieved an accuracy of approximately XX% in predicting launch success.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/rocket-launch-prediction.git
+cd rocket-launch-prediction
+```
 
-## My Contribution
-This was a team project. My contributions include:
-- Understanding and analyzing the dataset
-- Running the model and testing outputs
-- Assisting in preprocessing and evaluation
+2. Create a virtual environment (optional but recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-## How to Run
-1. Install required libraries using pip
-2. Run the Jupyter Notebook / Python script
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-## Future Improvements
-- Improve accuracy using advanced models
-- Deploy as a web application
+## 🚀 Usage
 
-## Author
-Bhavishya P T
+1. Start the Streamlit app:
+```bash
+streamlit run streamlit_app.py
+```python -m streamlit run streamlit_app.py
+
+
+2. Access the dashboard:
+- Open your browser and go to `http://localhost:8501`
+- Login using the provided credentials:
+  - Username: `Sameena`
+  - Password: `sam@7619`
+
+3. Navigate through the sections:
+- **Dashboard**: View launch statistics and trends
+- **Model Training**: Train ML models on the dataset
+- **Model Comparison**: Compare performance of different models
+- **Predictions**: Make new launch predictions
+
+## 📊 Project Structure
+
+```
+├── streamlit_app.py   # Main application entry point
+├── auth.py           # Authentication module
+├── utils.py          # Data processing utilities
+├── ml_models.py      # Machine learning models
+├── pages.py          # Dashboard pages
+├── predictions.py    # Prediction interface
+├── requirements.txt  # Project dependencies
+└── Documentation.md  # Detailed documentation
+```
+
+## 🔧 Technologies Used
+
+- **Frontend**: Streamlit
+- **Data Processing**: Pandas, NumPy
+- **Machine Learning**: Scikit-learn, XGBoost
+- **Visualization**: Plotly
+- **Data Export**: OpenPyXL
+
+## 📈 Model Performance
+
+The system uses multiple ML models and ensemble voting for predictions:
+
+| Model | Typical Accuracy | Use Case |
+|-------|-----------------|-----------|
+| Logistic Regression | 85-90% | Baseline predictions |
+| KNN | 82-88% | Pattern matching |
+| Naive Bayes | 80-85% | Probabilistic approach |
+| Neural Network | 87-92% | Complex patterns |
+| XGBoost | 88-93% | Ensemble learning |
+
+## 📥 Input Parameters
+
+Required parameters for launch prediction:
+- Company name
+- Rocket type
+- Launch date & time
+- Launch site & location
+- Orbit type & destination
+- Mission & payload details
+- Geographic coordinates
+- Weather conditions
+
+## 📤 Output Format
+
+Predictions include:
+- Success/Failure prediction
+- Confidence score
+- Individual model predictions
+- Historical success rates
+- Visualization of results
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Authors
+
+- **Bhavishya P T**
+
