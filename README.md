@@ -75,7 +75,6 @@ streamlit run streamlit_app.py
 ```
 
 ## 🔧 Technologies Used
-
 - **Frontend**: Streamlit
 - **Data Processing**: Pandas, NumPy
 - **Machine Learning**: Scikit-learn, XGBoost
