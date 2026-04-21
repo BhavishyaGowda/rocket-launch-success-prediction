@@ -61,8 +61,8 @@ streamlit run streamlit_app.py
 - **Model Comparison**: Compare performance of different models
 - **Predictions**: Make new launch predictions
 
-## 📊 Project Structure
 
+## 📊 Project Structure
 ```
 ├── streamlit_app.py   # Main application entry point
 ├── auth.py           # Authentication module
