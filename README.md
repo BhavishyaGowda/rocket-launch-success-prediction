@@ -16,12 +16,6 @@ A machine learning-powered web application that predicts the success probability
 - **Data Export**: Download results in CSV or Excel format
 - **Secure Access**: User authentication system
 
-## Technologies Used
-- Python
-- Machine Learning (Scikit-learn)
-- Pandas, NumPy
-- Streamlit
-
 ## 🛠️ Installation
 
 1. Clone the repository:
@@ -47,7 +41,7 @@ pip install -r requirements.txt
 ```bash
 streamlit run streamlit_app.py
 ```python -m streamlit run streamlit_app.py
-
+```
 
 2. Access the dashboard:
 - Open your browser and go to `http://localhost:8501`
@@ -61,9 +55,8 @@ streamlit run streamlit_app.py
 - **Model Comparison**: Compare performance of different models
 - **Predictions**: Make new launch predictions
 
-
 ## 📊 Project Structure
-```
+```text
 ├── streamlit_app.py   # Main application entry point
 ├── auth.py           # Authentication module
 ├── utils.py          # Data processing utilities
