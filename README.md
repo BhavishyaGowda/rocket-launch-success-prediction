@@ -115,17 +115,6 @@ Predictions include:
 - Historical success rates
 - Visualization of results
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## My Contribution
 This project was developed as a team project. My contributions include:
@@ -142,5 +131,9 @@ This project was developed as a team project. My contributions include:
 - Historical launch data providers
 - Streamlit community
 - Machine learning libraries contributors
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
